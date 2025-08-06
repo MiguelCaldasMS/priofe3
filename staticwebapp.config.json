@@ -1,5 +1,15 @@
 {
   "platform": {
     "apiRuntime": "node:20"
-  }
+  },
+  "routes": [
+    {
+      "route": "/profile",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "statusCode": 500
+    }
+  ]
 }
